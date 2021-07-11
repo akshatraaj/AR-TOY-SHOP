@@ -11,8 +11,6 @@
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
     <script src="https://raw.githack.com/fcor/arjs-gestures/master/dist/gestures.js"></script>
-
-    <!-- Bootstrap -->
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
@@ -28,8 +26,6 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-
-    <!-- sweetalert -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
 <!-- The core Firebase JS SDK is always required and must be listed first -->
@@ -52,10 +48,8 @@
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
 </script>
-    <!-- Local StyleSheet -->
     <link href="./style.css" rel="stylesheet" />
 
-    <!--JS Files-->
     <script src="./js/addButtons.js"></script>
     <script src="./js/addMarkers.js"></script>
     <script src="./js/markerhandler.js"></script>
@@ -75,13 +69,10 @@
       createbuttons
       createmarkers
     >
-      <!-- Camera -->
       <a-entity camera></a-entity>
     </a-scene>
-    <!-- Button Main Div -->
     <div id="button-div"></div>
 
-    <!-- Order Summary Boilerplate -->
     <div class="container">
       <div id="modal-div" class="modal" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
@@ -110,11 +101,7 @@
                     </tr>
                   </thead>
                   <tbody id="bill-table-body">
-                    <!-- foreach ($order->lineItems as $line)  -->
-
-                    <!-- Your Order Summary UI will comes here
-
-                 --></tbody>
+                  </tbody>
                 </table>
               </div>
             </div>
@@ -127,8 +114,6 @@
         </div>
       </div>
     </div>
-
-    <!-- Boilerplate for Ratings Model -->
 
     <div class="container">
       <div
